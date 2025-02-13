@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Anniversary! 🎉</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Happy Anniversary! 🎉</h1>
+
+      <!-- Music Section -->
+      <div class="music-control">
+        <audio id="backgroundMusic" autoplay loop>
+          <source src="../song.mp4" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <button id="playButton" aria-label="Play Background Music">
+          🎵 Play Music
+        </button>
+      </div>
+
+      <!-- Image Gallery -->
+      <div class="gallery">
+        <div class="photo-frame">
+          <img src="../image2.jpg" alt="Couple Photo 1" class="photo" />
+        </div>
+        <div class="photo-frame">
+          <img src="../image1.jpg" alt="Couple Photo 2" class="photo" />
+        </div>
+        <div class="photo-frame">
+          <img src="../image3.jpg" alt="Couple Photo 3" class="photo" />
+        </div>
+        <div class="photo-frame">
+          <img src="../image4.jpg" alt="Couple Photo 3" class="photo" />
+        </div>
+      </div>
+
+      <!-- Wishes Section -->
+      <div class="wishes">
+        <div class="wish-card">May your love grow stronger every year! 💖</div>
+        <div class="wish-card">Wishing you endless laughter and joy! 😄</div>
+        <div class="wish-card">Together is the best place to be! 🏡</div>
+        <div class="wish-card">Happy forever to the perfect pair! 👫</div>
+      </div>
+    </div>
+
+    <!-- Confetti Effect -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
