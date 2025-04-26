@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       playButton.style.display = "block"; // Show button if autoplay is blocked
     });
 
-  // Play music on button click
+  // Play music on button click to add the music in baackgroung
   playButton.addEventListener("click", () => {
     backgroundMusic.muted = false; // Ensure it's unmuted
     backgroundMusic.play();
